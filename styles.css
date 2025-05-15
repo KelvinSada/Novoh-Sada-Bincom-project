@@ -36,18 +36,16 @@ body{
   background: #ddd;
 }
 
-/* Mobile styles */
 .menu-toggle {
   display: none;
   background: #bebebe;
   color: white;
   border: none;
   padding: 0.5rem 1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
@@ -58,7 +56,6 @@ body{
     flex-direction: column;
     width: 100%;
     gap:20px;
-    font-size:1.5rem;
   }
 
   .menu-items.active {
