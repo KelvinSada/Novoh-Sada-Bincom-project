@@ -51,7 +51,7 @@ const addingPreviousProjects =() =>{
         </div>
         <div class="project-info">
           <h3 class="project-title">${x.text}</h3>
-          <span class="view-project">View Project →</span>
+          <span class="view-project">View Project </span>
         </div>
       </a>
     </div>`))
