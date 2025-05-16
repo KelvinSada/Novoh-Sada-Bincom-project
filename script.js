@@ -75,19 +75,6 @@ const imageSlides = ()=>{
 }
 imageSlides()
 
-document.querySelectorAll('.menu-items a').forEach(items => {
-  items.addEventListener('click', function(e) {
-    e.preventDefault();
-    const targetId = this.getAttribute('href');
-    console.log(targetId)
-    const targetElement = document.querySelector(targetId);
-    if (targetElement) {
-      targetElement.scrollIntoView({ behavior: 'smooth' });
-    }
-    menuToggle.classList.remove("active");
-    offScreenMenu.classList.remove("active")
-  });
-});
 
 
 
